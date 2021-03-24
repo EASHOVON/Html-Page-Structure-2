@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    border: 5px solid black;
+    font-size: 1.5rem
+}
+
+.main .header {
+    text-align: center;
+    background: #2ecc71;
+    margin: 10px;
+}
+
+.main .header .head {
+    padding: 20px;
+}
+
+.main .section {
+    display: flex;
+}
+
+.main .nav {
+    width: 30%;
+    text-align: center;
+    background: #B33771;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .main-tag {
+    width: 70%;
+    text-align: center;
+    background: #55E6C1;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .section .main-tag .main-h {
+    margin: 10px;
+}
+
+
+.main .section .main-tag .article-1 {
+    background: #3B3B98;
+    padding: 30px 0;
+    margin: 10px;
+}
+.main .section .main-tag .article-2 {
+    background: #3B3B98;
+    padding: 30px 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+.main .section .main-tag .article-3 {
+    background: #3B3B98;
+    padding: 30px 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+    background: #ffd32a;
+    margin: 0 10px 10px 10px;
+    padding: 20px;
+}
